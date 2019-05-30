@@ -14,7 +14,7 @@ The rpi-router is a microservice responsible for handling HTTP Requests originat
 
 ```
   docker build . -t rpi-router
-  docker run --env-file .env --restart unless-stopped -p 8082:8082 - --memory="2g" --cpus="2.0" -d rpi-router
+  docker run --env-file .env --restart unless-stopped -p 8082:8082 --memory="2g" --cpus="2.0" -d rpi-router
 ```
 
 
